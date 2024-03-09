@@ -13,7 +13,7 @@ const mesh = new THREE.Mesh(geometry,material)
 scene.add(mesh)
 
 //Light
-const light = new THREE.PointLight(0xffffff,1,100)
+const light = new THREE.PointLight(0xffffff,70,100,)
 light.position.set(10,10,10)
 scene.add(light)
 
